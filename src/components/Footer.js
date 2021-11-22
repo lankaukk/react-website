@@ -1,9 +1,8 @@
-
-   
 import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import { ExternalLink } from 'react-external-link';
 
 function Footer() {
   return (
@@ -66,38 +65,24 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              MCKAY
-              <i class='fab fa-typo3' />
+              MCKAYLA LANKAU
+              
             </Link>
           </div>
-          <small class='website-rights'>MCKAY © 2020</small>
+          <small class='website-rights'>MCKAYLA LANKAU © 2020</small>
           <div class='social-icons'>
             
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
+            <ExternalLink class='social-icon-link instagram' href="/">
+                <i class='fab fa-instagram' />
+            </ExternalLink>
+
+            <ExternalLink class='social-icon-link youtube' href="https://www.youtube.com/channel/UCmbbTQKwmwz_5rw6V9n-15g/featured">
+                <i class='fab fa-youtube' />
+            </ExternalLink>
             
-            <Link
-              class='social-icon-link linkedin'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            <ExternalLink class='social-icon-link linkedin' href="https://www.linkedin.com/in/mckayla-lankau/">
+                <i class='fab fa-linkedin' />
+            </ExternalLink>
           </div>
         </div>
       </section>
