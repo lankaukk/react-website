@@ -40,10 +40,10 @@ function Cards() {
               src=''
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
-              path='/sign-up'
+              path='/contact'
             />
           </ul>
-          
+
         </div>
       </div>
     </div>
