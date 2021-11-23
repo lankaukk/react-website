@@ -7,7 +7,7 @@ import { ExternalLink } from 'react-external-link';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
         </p>
@@ -25,8 +25,8 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
-      <div class='footer-links'>
+      </section> */}
+      {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
@@ -60,7 +60,7 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
@@ -82,6 +82,10 @@ function Footer() {
             
             <ExternalLink class='social-icon-link linkedin' href="https://www.linkedin.com/in/mckayla-lankau/">
                 <i class='fab fa-linkedin' />
+            </ExternalLink>
+
+            <ExternalLink class='social-icon-link github' href="https://github.com/lankaukk">
+                <i class='fab fa-github' />
             </ExternalLink>
           </div>
         </div>

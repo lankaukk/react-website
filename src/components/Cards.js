@@ -5,42 +5,42 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src=''
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src='images/typo-posters.jpg'
+              text='Web App for generating your own digital typographic compositions'
+              label='JavaScript App'
+              path='/projects'
             />
             <CardItem
-              src=''
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='images/journal-mockup.jpg'
+              text='Interface Design and Prototype for Expressive Journaling Mobile App'
+              label='UI Design'
+              path='/projects'
             />
           </ul>
 
           <ul className='cards__items'>
             <CardItem
-              src=''
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/_blank-playspace.gif'
+              text='Contemporary Exploration about Social Media Consumption'
+              label='Digital Experience'
+              path='/projects'
             />
             <CardItem
-              src=''
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/potions-catalog-cover-square.jpg'
+              text='Speculative Catalog Selling Magic Potions'
+              label='Editorial Design'
+              path='/projects'
             />
             <CardItem
-              src=''
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/contact'
+              src='images/protest-platform-map.gif'
+              text='UI Design for Theoretical Social Media Platform for Protesters'
+              label='Social Media'
+              path='/projects'
             />
           </ul>
 

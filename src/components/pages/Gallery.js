@@ -1,6 +1,15 @@
-import React from 'react';
-import '../../App.css';
+import React from 'react'
+import '../../App.css'
+import Footer from '../Footer'
 
-export default function Gallery() {
-    return <h1 className="gallery">GALLERY OF EPIC WORK</h1>
+function Gallery() {
+    return (
+        <>
+            <h1>Gallery</h1>
+            
+            <Footer />
+        </>
+    )
 }
+
+export default Gallery;
