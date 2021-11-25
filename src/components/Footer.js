@@ -69,10 +69,10 @@ function Footer() {
               
             </Link>
           </div>
-          <small class='website-rights'>MCKAYLA LANKAU © 2020</small>
+          <small class='website-rights'>MCKAYLA LANKAU © 2021</small>
           <div class='social-icons'>
             
-            <ExternalLink class='social-icon-link instagram' href="/">
+            <ExternalLink class='social-icon-link instagram' href="https://www.instagram.com/forwardchaos/">
                 <i class='fab fa-instagram' />
             </ExternalLink>
 
