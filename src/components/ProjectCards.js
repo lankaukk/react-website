@@ -43,7 +43,7 @@ function ProjectCards() {
               path='/'
             />
             <ProjectCardItem
-              src='images/protest-platform-map.gif'
+              src='images/ig-likes.gif'
               text='UI Design for Theoretical Social Media Platform for Protesters'
               label='Social Media'
               path='/'
@@ -53,7 +53,7 @@ function ProjectCards() {
 
             <ul className='project__cards__items'>
             <ProjectCardItem
-              src='images/potions-catalog-cover-square.jpg'
+              src='images/pigeon-square.png'
               text='Speculative Catalog Selling Magic Potions'
               label='Editorial Design'
               path='/'
