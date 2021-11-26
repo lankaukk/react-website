@@ -1,13 +1,13 @@
 import React from 'react'
 import '../../App.css'
 import HeroSection from '../HeroSection'
-import Cards from '../Cards'
+import ProjectCards from '../ProjectCards'
 import Footer from '../Footer'
 
 function Projects() {
     return (
         <>
-            <Cards />
+            <ProjectCards />
             <Footer />
         </>
     )
