@@ -21,15 +21,9 @@ function ProjectCards() {
               label='UI Design'
               path='/'
             />
-            <ProjectCardItem
-              src='images/protest-platform-map.gif'
-              text='UI Design for Theoretical Social Media Platform for Protesters'
-              label='Social Media'
-              path='/'
-            />
-            </ul>
+          </ul>
 
-            <ul className='project__cards__items'>
+          <ul className='project__cards__items'>
             <ProjectCardItem
               src='images/_blank-playspace.gif'
               text='Contemporary Exploration about Social Media Consumption'
@@ -37,9 +31,9 @@ function ProjectCards() {
               path='/'
             />
             <ProjectCardItem
-              src='images/potions-catalog-cover-square.jpg'
-              text='Speculative Catalog Selling Magic Potions'
-              label='Editorial Design'
+              src='images/pexels-browser.gif'
+              text='UI Design for Theoretical Social Media Platform for Protesters'
+              label='Social Media'
               path='/'
             />
             <ProjectCardItem
@@ -51,21 +45,19 @@ function ProjectCards() {
             </ul>
 
 
-            <ul className='project__cards__items'>
+          <ul className='project__cards__items'>
             <ProjectCardItem
               src='images/pigeon-square.png'
               text='Speculative Catalog Selling Magic Potions'
               label='Editorial Design'
               path='/'
             />
-            
             <ProjectCardItem
-              src='images/protest-platform-map.gif'
-              text='UI Design for Theoretical Social Media Platform for Protesters'
-              label='Social Media'
+              src='images/potions-catalog-cover-square.jpg'
+              text='Speculative Catalog Selling Magic Potions'
+              label='Editorial Design'
               path='/'
             />
-
             <ProjectCardItem
               src='images/protest-platform-map.gif'
               text='UI Design for Theoretical Social Media Platform for Protesters'
@@ -73,6 +65,7 @@ function ProjectCards() {
               path='/'
             />
           </ul>
+
             </div>
         </div>
     </div>
