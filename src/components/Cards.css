@@ -1,7 +1,7 @@
 .cards {
     padding: 4rem;
-    background: #fff;
-  }
+    
+}
   
   h1 {
     text-align: center;
@@ -18,7 +18,6 @@
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
   }
   
   .cards__items {
@@ -33,6 +32,7 @@
   }
   
   .cards__item__link {
+    background-color: violet;
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -94,7 +94,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: white;
     font-size: 18px;
     line-height: 24px;
   }

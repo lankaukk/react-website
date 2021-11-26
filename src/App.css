@@ -8,6 +8,11 @@
 a {
   text-decoration: none;
 }
+
+body {
+  background-color: black;
+  color: white;
+}
   
   .home,
   .services,
@@ -85,6 +90,7 @@ a {
     -ms-animation: bounce 3s infinite ease-in-out; 
     -moz-animation: bounce 3s infinite ease-in-out; 
     animation: bounce 3s infinite ease-in-out;
+
 }
 
 .delay1 {
