@@ -21,7 +21,7 @@ function Contact() {
             </p>
 
             <p class="contact-description">
-            These some are my favorite tools, but I'm always learning more!
+            These are some of my favorite tools, but I'm always learning more!
             </p>
 
             <div className="sticker-container">
