@@ -1,12 +1,15 @@
 import React from 'react'
-import '../../App.css'
+import '../../Gallery.css'
 import Footer from '../Footer'
 
 function Gallery() {
     return (
         <>
-            <br></br><br></br>
-            <h1>Gallery</h1>
+            <div className="gallery-container">
+                <h1>Gallery</h1>
+                
+            </div>
+            <GalleryCards />
             
             <Footer />
         </>
