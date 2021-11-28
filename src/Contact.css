@@ -1,9 +1,16 @@
 .pro-pic {
-    height: 60vh;
-    border-radius: 10px;
+    height: 50vh;
+    border-radius: 50%;
     margin: 10px;
     
   }
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
   
   .contact-description {
     width: 60vw;
