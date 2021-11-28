@@ -51,55 +51,59 @@ function Contact() {
                 />
                 <img
                     class='sticker-item delay4'
+                    src='images/stickers/git.png'
+                />
+                <img
+                    class='sticker-item delay3'
                     src='images/stickers/js.png'
                 />
                 
                 
                 <img
-                    class='sticker-item delay3'
+                    class='sticker-item delay2'
                     src='images/stickers/slack.png'
                 />
                 <img
-                    class='sticker-item delay2'
+                    class='sticker-item delay1'
                     src='images/stickers/vscode.png'
                 />
                 <img
-                    class='sticker-item delay1'
+                    class='sticker-item delay0'
                     src='images/stickers/ruby.png'
                 />
                 <img
-                    class='sticker-item delay0'
+                    class='sticker-item delay1'
                     src='images/stickers/rails.png'
                 />
                 <img
-                    class='sticker-item delay1'
+                    class='sticker-item delay2'
                     src='images/stickers/jquery.png'
                 />
                 <img
-                    class='sticker-item delay2'
+                    class='sticker-item delay3'
                     src='images/stickers/react.png'
                 />
                 <img
-                    class='sticker-item delay3'
+                    class='sticker-item delay4'
                     src='images/stickers/redux.png'
                 />
                 
                 <img
-                    class='sticker-item'
+                    class='sticker-item delay5'
                     src='images/stickers/html.png'
                 />
                 <img
-                    class='sticker-item'
+                    class='sticker-item delay4'
                     src='images/stickers/css.png'
                 />
                 <img
-                    class='sticker-item'
+                    class='sticker-item delay3'
                     src='images/stickers/scss.png'
                 />
             </div>
             
             <p class="contact-description">
-            Feel free to send me and email (mckaylalankau@gmail.com), LinkedIn Message, or DM if you would like to work together, or just to say hi!
+            Feel free to send me and email <a href="mailto: mckaylalankau@gmail.com">(mckaylalankau@gmail.com)</a> or <a href="https://www.linkedin.com/in/mckayla-lankau/">LinkedIn Message</a> if you would like to work together, or just to say hi!
             </p>
 
             <br></br><br></br>
