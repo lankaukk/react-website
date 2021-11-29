@@ -1,7 +1,5 @@
 import React from 'react'
 import '../../Gallery.css'
-import Footer from '../Footer'
-// import GalleryCards from '../GalleryCards'
 
 function Gallery() {
     return (
@@ -18,7 +16,7 @@ function Gallery() {
                     <img src="images/gallery/marsjuice.jpg" width="100%" alt="gallery image"></img>
                     <img src="images/gallery/moonscape.jpg" width="100%" alt="gallery image"></img>
                     <img src="images/gallery/p9.jpg" width="100%" alt="gallery image"></img>
-                    <img src="images/gallery/p14.jpg" width="100%" alt="gallery image"></img>
+                    
                     
                 </div>
 
@@ -32,7 +30,7 @@ function Gallery() {
                 </div>
 
                 <div class="column">
-                    <img src="images/typo-posters.jpg" width="100%" alt="gallery image"></img>
+                    <img src="images/gallery/p14.jpg" width="100%" alt="gallery image"></img>
                     <img src="images/pigeon-square.png" width="100%" alt="gallery image"></img>
                     <img src="images/_blank-playspace.gif" width="100%" alt="gallery image"></img>
                     <img src="images/journal-mockup.jpg" width="100%" alt="gallery image"></img>
@@ -51,8 +49,6 @@ function Gallery() {
             </div>
 
             </div>
-
-            <Footer />
         </>
     )
 }

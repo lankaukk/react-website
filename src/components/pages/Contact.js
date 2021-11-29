@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Footer'
 import '../../Contact.css'
 
 function Contact() {
@@ -110,7 +109,6 @@ function Contact() {
 
             
         </div>
-        <Footer />
         </>
     )
 }

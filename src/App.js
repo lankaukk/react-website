@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Gallery from './components/pages/Gallery';
 import Contact from './components/pages/Contact';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
           <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
+        <Footer />
       </Router>
+
+      
     </>
   );
 }
