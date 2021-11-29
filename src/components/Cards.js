@@ -1,14 +1,13 @@
 import React from 'react';
-import './Cards.css';
 import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className='project__cards'>
       
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='project__cards__container'>
+        <div className='project__cards__wrapper'>
+          <ul className='project__cards__items'>
             <CardItem
               src='images/typo-posters.jpg'
               text='Web App for generating your own digital typographic compositions'
@@ -23,7 +22,7 @@ function Cards() {
             />
           </ul>
 
-          <ul className='cards__items'>
+          <ul className='project__cards__items'>
             <CardItem
               src='images/_blank-playspace.gif'
               text='Contemporary Exploration about Social Media Consumption'
