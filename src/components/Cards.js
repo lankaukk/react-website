@@ -3,6 +3,7 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
+
     <div className='project__cards'>
       
       <div className='project__cards__container'>

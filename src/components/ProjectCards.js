@@ -5,13 +5,15 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Routes,
   Link,
   useParams,
   useRouteMatch
 } from "react-router-dom";
+import Project from './pages/Project';
 
 function ProjectCards() {
-
+    
     return (
     <div className='project__cards'>
 
@@ -23,14 +25,14 @@ function ProjectCards() {
               src='images/typo-posters.jpg'
               text='JavaScript Web App for generating your own digital typographic compositions'
               label='Typo'
-              path='/'
+              path='/projects/typo'
             />
             
             <ProjectCardItem
               src='images/journal-mockup.jpg'
               text='Interface Design and Prototype for Expressive Journaling Mobile App'
               label='Journaling App Design'
-              path='/'
+              path='/projects/journaling-app-design'
             />
           </ul>
 

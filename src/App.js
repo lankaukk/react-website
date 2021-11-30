@@ -7,6 +7,7 @@ import Projects from './components/pages/Projects';
 import Gallery from './components/pages/Gallery';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer'
+import Project from './components/pages/Project';
 
 function App() {
   return (
@@ -16,12 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}>
-            {/* <Route path=":projectId" element={<Project />}>
-              <Route
-                path=":resourceId"
-                element={<Resource />}
-              />
-            </Route> */}
+            <Route path="/projects/:title" element={<Project />}></Route>
           </Route>
           <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
