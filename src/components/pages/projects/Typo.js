@@ -8,7 +8,8 @@ function Typo() {
             
             <ProjectShow 
                 title="Typo"
-                gh='https://github.com/lankaukk/typo-app'
+                linkicon="GitHub"
+                link='https://github.com/lankaukk/typo-app'
 
                 src='/images/typo-posters.jpg'
 

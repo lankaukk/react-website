@@ -1,6 +1,9 @@
 import React from 'react'
 
 function ProjectShow(props) {
+
+    
+
     return (
         <div className="project-show-container">
             
@@ -8,9 +11,9 @@ function ProjectShow(props) {
 
             <div className="link-and-date-container">
                 <p className="link">
-                    <a href={props.gh} target="blank" >
-                        <i class='fab fa-github' /> 
-                        &nbsp;View on GitHub
+                    <a href={props.link} target="blank" >
+                        <i class='fab fa-figma' /> 
+                        &nbsp;View on {props.linkicon}
                     </a>
                 </p>
 
@@ -75,10 +78,6 @@ function ProjectShow(props) {
             </div>
             
             <br></br>
-
-            
-
-            
 
         </div>
     )
