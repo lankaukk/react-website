@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "DM Mono", monospace;
+    /* cursor: url(logo-cursor.png), auto; */
   }
 
 a {

@@ -10,7 +10,6 @@ import {
   useParams,
   useRouteMatch
 } from "react-router-dom";
-import Project from './pages/Project';
 
 function ProjectCards() {
     
@@ -32,7 +31,7 @@ function ProjectCards() {
               src='images/journal-mockup.jpg'
               text='Interface Design and Prototype for Expressive Journaling Mobile App'
               label='Journaling App Design'
-              path='/projects/journaling-app-design'
+              path='/projects/journal-app-design'
             />
           </ul>
 
@@ -41,19 +40,19 @@ function ProjectCards() {
               src='images/_blank-playspace.gif'
               text='Digital Experience Exploring Contemporary Social Media Consumption'
               label='_blank'
-              path='/'
+              path='/projects/_blank'
             />
             <ProjectCardItem
               src='images/pexels-browser.gif'
               text='React App fetching from the Pexels API'
               label='Pexels Browser'
-              path='/'
+              path='/projects/pexels-browser'
             />
             <ProjectCardItem
               src='images/ig-likes.gif'
               text='Chrome Extension for Removing Likes on Instagram'
               label='No Likes'
-              path='/'
+              path='/projects/no-likes'
             />
             </ul>
 
@@ -63,19 +62,19 @@ function ProjectCards() {
               src='images/pigeon-square.png'
               text='Snapchat filter using Augmented Reality to support the "Birds Arent Real Movement"'
               label='Robot Pigeon AR'
-              path='/'
+              path='/projects/robot-pigeon-ar'
             />
             <ProjectCardItem
               src='images/potions-catalog-cover-square.jpg'
               text='Editorial Design for a Speculative Catalog Selling Magic Potions'
               label='Modern Potions'
-              path='/'
+              path='/projects/modern-potions'
             />
             <ProjectCardItem
               src='images/protest-platform-map.gif'
               text='UI Design for Theoretical Social Media Platform for Protesters'
               label='Protest Platform'
-              path='/'
+              path='/projects/protest-platform'
             />
           </ul>
 

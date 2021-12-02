@@ -8,7 +8,6 @@ import {
   useParams,
   useRouteMatch
 } from "react-router-dom";
-import Project from './pages/Project';
 
 function ProjectCardItem(props) {
     return (

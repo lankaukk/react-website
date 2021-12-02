@@ -10,9 +10,10 @@ function Gallery() {
             {/* graphic posters */}
                 <div class="column">
                     <img src="images/gallery/birth-of-the-moon.gif" width="100%" alt="gallery image"></img>
+                    <img src="images/gallery/plutojuice.jpg" width="100%" alt="gallery image" ></img>
                     <img src="images/gallery/earthjuice.jpg" width="100%" alt="gallery image" ></img>
                     <img src="images/gallery/marsjuice.jpg" width="100%" alt="gallery image"></img>
-                    <img src="images/gallery/moonscape.jpg" width="100%" alt="gallery image"></img>
+                    
                     <img src="images/gallery/escape.jpg" width="100%" alt="gallery image"></img>
                 </div>
 
@@ -41,6 +42,7 @@ function Gallery() {
             {/* landscapes */}
                 <div class="column">
                     <img src="images/gallery/fredonia.jpg" width="100%" alt="gallery image"></img>
+                    <img src="images/gallery/moonscape.jpg" width="100%" alt="gallery image"></img>
                     <img src="images/gallery/oldfield.jpg" width="100%" alt="gallery image"></img>
                     <img src="images/gallery/greenlawn.jpg" width="100%" alt="gallery image"></img>
                     <img src="images/gallery/sunflowers.jpg" width="100%" alt="gallery image"></img>
