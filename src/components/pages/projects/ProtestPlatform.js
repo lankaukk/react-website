@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectShow from './ProjectShow'
 
 function ProtestPlatform() {
     return (

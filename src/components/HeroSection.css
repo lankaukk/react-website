@@ -53,11 +53,11 @@ video {
   border-radius: 50%;
 
   opacity: 1;
-  /* background: rgb(2,0,36); */
+  background: rgb(2,0,36);
   background: rgba(21,37,190,1);
-  /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(21,37,190,1) 50%, rgba(238,130,238,1) 100%); */
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(21,37,190,1) 50%, rgba(238,130,238,1) 100%);
 
-  box-shadow:
+  /* box-shadow:
     inset 0 0 50px #fff,
     inset 20px 0 40px #f0f,
     inset -20px 0 40px #0ff,
@@ -65,7 +65,7 @@ video {
     inset -20px 0 300px #0ff,
     0 0 50px #fff,
     -10px 0 40px #f0f,
-    10px 0 40px #0ff;
+    10px 0 40px #0ff; */
  
   position: absolute;
   
@@ -96,7 +96,7 @@ video {
 .c3 {
   top: 75%;
   left: 25%;
-}
+}ß
 
 .line {
   opacity: .6;

@@ -29,7 +29,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                 
-                {/* <img src="logo-cursor.png" alt="logo" width="50px" style={{paddingRight: '0px'}} ></img> */}
+                
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         MCKAYLA LANKAU 
                     </Link>

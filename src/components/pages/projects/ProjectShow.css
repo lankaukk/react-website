@@ -1,12 +1,21 @@
 .project-show-container {
     padding-top: 60px;
-    padding-bottom: 60px;
+    
     padding-right: 10vw;
     padding-left: 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+
+.supplemental-show-container {
+    padding-right: 10vw;
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
 }
 
 .project-show-title {
