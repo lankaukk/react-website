@@ -15,6 +15,17 @@
     max-width: 600px;
 }
 
+.link-and-date-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    width: 80vw;
+    max-width: 600px;
+    justify-content: space-between;
+}
+
+
+
 .project-show-pic {
     width: 80vw;
     max-width: 600px;

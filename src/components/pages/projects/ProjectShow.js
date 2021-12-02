@@ -6,12 +6,16 @@ function ProjectShow(props) {
             
             <h1 className='project-show-title'>{props.title}</h1>
 
-            <p className="project-show-description ">
-                <a href={props.gh} target="blank" >
-                    <i class='fab fa-github' /> 
-                    &nbsp;View on GitHub
-                </a>
-            </p>
+            <div className="link-and-date-container">
+                <p className="link">
+                    <a href={props.gh} target="blank" >
+                        <i class='fab fa-github' /> 
+                        &nbsp;View on GitHub
+                    </a>
+                </p>
+
+                <p className="date">{props.date}</p>
+            </div>
 
             <img
                 className='project-show-pic'
@@ -20,6 +24,8 @@ function ProjectShow(props) {
             />
 
             <p className="project-show-description">{props.description}</p>
+
+            <br></br>
 
             <p className="project-show-description">{props.label2}</p>
             <img
@@ -68,9 +74,9 @@ function ProjectShow(props) {
                 />
             </div>
             
-            <br></br><br></br><br></br><br></br>
+            <br></br>
 
-            <p className="project-show-description ">{props.date}</p>
+            
 
             
 
