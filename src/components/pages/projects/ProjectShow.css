@@ -33,6 +33,18 @@
     text-indent: 2em;
 }
 
+.project-show-pics-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80vw;
+    max-width: 600px;
+   
+}
+.project-show-pics {
+    width: 33%;
+}
+
 @media screen and (max-width: 960px) {
     .project-show-pic {
         width: 98.5vw;
@@ -42,5 +54,14 @@
 
     .project-show-container {
         padding-top: 30px;
+    }
+
+    .project-show-pics-container {
+        width: 100vw;
+        max-width: 100vw;
+        
+    }
+    .project-show-pics {
+        width: 33vw;
     }
 }
