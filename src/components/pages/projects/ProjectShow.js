@@ -72,6 +72,7 @@ function ProjectShow(props) {
 
 
     return (
+        <>
         <div className="project-show-container">
             
             <h1 className='project-show-title'>{props.title}</h1>
@@ -114,9 +115,9 @@ function ProjectShow(props) {
             <p className="project-show-description">{props.label5}</p>
             {TriPic(props)}
             
-            <br></br>
-
         </div>
+       
+        </>
     )
 }
 
