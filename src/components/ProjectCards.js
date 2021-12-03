@@ -1,15 +1,6 @@
 import React from 'react'
 import './ProjectCards.css';
 import ProjectCardItem from './ProjectCardItem';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-  Link,
-  useParams,
-  useRouteMatch
-} from "react-router-dom";
 
 function ProjectCards() {
     
