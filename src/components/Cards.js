@@ -12,35 +12,35 @@ function Cards() {
             <CardItem
               src='images/typo-posters.jpg'
               text='Web App for generating your own digital typographic compositions'
-              label='JavaScript App'
-              path='/projects'
+              label='Typo'
+              path='/projects/typo'
             />
             <CardItem
               src='images/journal-mockup.jpg'
               text='Interface Design and Prototype for Expressive Journaling Mobile App'
-              label='UI Design'
-              path='/projects'
+              label='Journaling App Design'
+              path='/projects/journal-app-design'
             />
           </ul>
 
           <ul className='project__cards__items'>
             <CardItem
               src='images/_blank-playspace.gif'
-              text='Contemporary Exploration about Social Media Consumption'
-              label='Digital Experience'
-              path='/projects'
+              text='Digital Experience Exploring Contemporary about Social Media Consumption'
+              label='_blank'
+              path='/projects/_blank'
             />
             <CardItem
               src='images/potions-catalog-cover-square.jpg'
               text='Speculative Catalog Selling Magic Potions'
-              label='Editorial Design'
-              path='/projects'
+              label='Modern Potions'
+              path='/projects/modern-potions'
             />
             <CardItem
               src='images/protest-platform-map.gif'
               text='UI Design for Theoretical Social Media Platform for Protesters'
-              label='Social Media'
-              path='/projects'
+              label='Protest Platform'
+              path='/projects/protest-platform'
             />
           </ul>
 
