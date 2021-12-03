@@ -9,7 +9,7 @@ function CardItem(props) {
           <figure className='project__cards__item__pic-wrap' data-category={props.label}>
             <img
               className='project__cards__item__img'
-              alt='Portfolio Image'
+              alt='Portfolio Item'
               src={props.src}
             />
           </figure>

@@ -39,7 +39,7 @@ function RobotPigeonAR() {
                 <br></br>
                 <img
                     className=''
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src='/images/projects/pigeon/robot-pigeon-snapcode.png'
                     width="200px"
                 />

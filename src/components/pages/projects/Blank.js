@@ -34,17 +34,17 @@ function Blank() {
             <div className="supplemental-show-container">
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src='/images/projects/blank/phones-interaction.gif'
                 />
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src='/images/projects/blank/desk-person.jpg'
                 />
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src='/images/projects/blank/ending.gif'
                 />
             </div>

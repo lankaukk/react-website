@@ -1,12 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-  Link,
-  useParams,
-  useRouteMatch
+  Link
 } from "react-router-dom";
 
 function ProjectCardItem(props) {
@@ -18,7 +12,7 @@ function ProjectCardItem(props) {
                 <figure className='project__cards__item__pic-wrap' data-category={props.label}>
                     <img
                     className='project__cards__item__img'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src={props.src}
                     />
                 </figure>

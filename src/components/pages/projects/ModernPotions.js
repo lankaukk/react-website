@@ -32,17 +32,17 @@ function ModernPotions() {
             <div className="supplemental-show-container">
             <img
                 className='project-show-pic'
-                alt='Portfolio Image'
+                alt='Portfolio Item'
                 src='/images/projects/modern-potions/contents.jpeg'
             />
             <img
                 className='project-show-pic'
-                alt='Portfolio Image'
+                alt='Portfolio Item'
                 src='/images/projects/modern-potions/essentiasl-spread.jpeg'
             />
             <img
                 className='project-show-pic'
-                alt='Portfolio Image'
+                alt='Portfolio Item'
                 src='/images/projects/modern-potions/day-dream-shot.jpeg'
             />
         </div>

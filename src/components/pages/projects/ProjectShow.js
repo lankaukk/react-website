@@ -8,13 +8,13 @@ function ProjectShow(props) {
         return (
             
             <p className="link">
-            {externalLink == "GitHub" &&
+            {externalLink === "GitHub" &&
                     <a href={props.link} target="blank" >
                         <i class='fab fa-github' /> 
                         &nbsp;View on {props.linkicon}
                     </a>
             }
-            {externalLink == "Figma" &&
+            {externalLink === "Figma" &&
                     <a href={props.link} target="blank" >
                         <i class='fab fa-figma' /> 
                         &nbsp;View on {props.linkicon}
@@ -31,7 +31,7 @@ function ProjectShow(props) {
             {pic2.length > 0 &&
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src={props.src2}
                 />
             }
@@ -45,7 +45,7 @@ function ProjectShow(props) {
             {pic3.length > 0 &&
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src={props.src3}
                 />
             }
@@ -80,17 +80,17 @@ function ProjectShow(props) {
                 <div>
                 <img
                     className='project-show-pics'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src={props.src5}
                 />
                 <img
                     className='project-show-pics'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src={props.src6}
                 />
                 <img
                     className='project-show-pics'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src={props.src7}
                 />
                 </div>
@@ -113,7 +113,7 @@ function ProjectShow(props) {
 
             <img
                 className='project-show-pic'
-                alt='Portfolio Image'
+                alt='Portfolio Item'
                 src={props.src}
             />
 

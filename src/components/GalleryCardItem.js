@@ -7,7 +7,7 @@ function GalleryCardItem(props) {
                 <figure className='gallery__item__pic-wrap' data-category={props.label}>
                     <img
                         className='gallery__item__pic'
-                        alt='Gallery Image'
+                        alt='Gallery Item'
                         src={props.src}
                     />
             </figure>

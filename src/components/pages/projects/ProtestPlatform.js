@@ -33,25 +33,25 @@ function ProtestPlatform() {
                 <p className="project-show-description">Login Page:</p>
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src='/images/projects/protest-platform/login.png'
                 />
                 <p className="project-show-description">Horizontal Scroll effect on Bulletins:</p>
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src='/images/projects/protest-platform/dashboard-scroll.gif'
                 />
                 <p className="project-show-description">Chat with other Protesters:</p>
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src='/images/projects/protest-platform/chat.png'
                 />
                 <p className="project-show-description">Simple Language Translation:</p>
                 <img
                     className='project-show-pic'
-                    alt='Portfolio Image'
+                    alt='Portfolio Item'
                     src='/images/projects/protest-platform/translation.gif'
                 />
             </div>
