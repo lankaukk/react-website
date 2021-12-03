@@ -13,7 +13,7 @@ function RobotPigeonAR() {
 
                 description="This project is inspired by the 
                
-                Birds Arent Real movement 
+                Birds Arent Real movement. 
                 
                 The goal of the movement is to make everyone aware of the fact that the government has replaced every living bird with robotic replicas. This Snap Lens utilizes Augmented Reality to help people to see the truth for themselves."
 

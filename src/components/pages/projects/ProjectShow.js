@@ -24,6 +24,35 @@ function ProjectShow(props) {
         );
     }
 
+    function PicsPresent(props) {
+        const pic2 = props.src2;
+        return (
+            <>
+            {pic2.length > 0 &&
+                <img
+                    className='project-show-pic'
+                    alt='Portfolio Image'
+                    src={props.src2}
+                />
+            }
+            </>
+        );
+    }
+    function Pics3Present(props) {
+        const pic3 = props.src3;
+        return (
+            <>
+            {pic3.length > 0 &&
+                <img
+                    className='project-show-pic'
+                    alt='Portfolio Image'
+                    src={props.src3}
+                />
+            }
+            </>
+        );
+    }
+
     function YoutubeLink(props) {
         const youtubelink = props.src4;
         return (
@@ -80,9 +109,6 @@ function ProjectShow(props) {
             <div className="link-and-date-container">
                 <p className="date">{props.date}</p>
                 {ExternalLink(props)}
-
-                
-
             </div>
 
             <img
@@ -96,17 +122,9 @@ function ProjectShow(props) {
             <br></br>
 
             <p className="project-show-description">{props.label2}</p>
-            <img
-                className='project-show-pic'
-                alt='Portfolio Image'
-                src={props.src2}
-            />
+            {PicsPresent(props)}
             <p className="project-show-description">{props.label3}</p>
-             <img
-                className='project-show-pic'
-                alt='Portfolio Image'
-                src={props.src3}
-            />
+            {Pics3Present(props)}
 
             <br></br>
 
