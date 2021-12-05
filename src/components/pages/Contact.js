@@ -6,7 +6,7 @@ function Contact() {
         <>
         <div class="contact-container">
         <br></br>
-            <h1 >Hi! My name's McKayla :)</h1>
+            <h1 className="hi">Hi! My name's McKayla :)</h1>
             <br></br>
             <img
                 class='pro-pic'
