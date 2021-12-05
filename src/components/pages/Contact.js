@@ -119,7 +119,7 @@ function Contact() {
             </div>
             
             <p class="contact-description">
-            Feel free to send me and email <a href="mailto: mckaylalankau@gmail.com">(mckaylalankau@gmail.com)</a> or <a href="https://www.linkedin.com/in/mckayla-lankau/">LinkedIn Message</a> if you would like to work together, or just to say hi!
+            Feel free to email me at <a href="mailto: mckaylalankau@gmail.com">(mckaylalankau@gmail.com)</a> or <a href="https://www.linkedin.com/in/mckayla-lankau/">LinkedIn Message</a> if you would like to work together, or just to say hi!
             </p>
 
             <br></br><br></br>
