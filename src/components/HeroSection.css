@@ -45,10 +45,9 @@ video {
   }
   
 .circle {
-  height:30vw;
-  width:30vw;
-  max-width: 220px;
-  max-height: 220px;
+  
+  max-width: 260px;
+  max-height: 260px;
   /* background-color: red; */
   border-radius: 50%;
 
@@ -82,18 +81,24 @@ video {
 }
 
 .c1 {
+  height:30vw;
+  width:30vw;
   top: 15%;
   left: 10%;
   animation-delay: 1s;
 }
 
 .c2 {
+  height:25vw;
+  width:25vw;
   bottom: 25%;
   right: 10%;
   animation-delay: 2s;
 }
 
 .c3 {
+  height:20vw;
+  width:20vw;
   top: 75%;
   left: 25%;
 }
