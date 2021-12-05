@@ -1,7 +1,6 @@
 import React from 'react'
 
 function ProjectShow(props) {
-
     
     function ExternalLink(props) {
         const externalLink = props.linkicon;

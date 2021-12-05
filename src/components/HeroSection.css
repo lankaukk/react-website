@@ -140,11 +140,11 @@ video {
 }
 
 .l4 {
-  bottom: 15%;
+  bottom: 10vh;
   left: 10%;
 }
 .l5 {
-  top: 18%;
+  top: 18vh;
   right: 10%;
   animation-delay: 1.5s;
 }
