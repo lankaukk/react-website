@@ -22,7 +22,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/*" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
             <Route path="/projects/typo" element={<Typo />}></Route>
             <Route path="/projects/journal-app-design" element={<JournalAppDesign />}></Route>
