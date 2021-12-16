@@ -27,14 +27,11 @@ function App() {
             <Route path="/projects/typo" element={<Typo />}></Route>
             <Route path="/projects/journal-app-design" element={<JournalAppDesign />}></Route>
             <Route path="/projects/protest-platform" element={<ProtestPlatform />}></Route>
-
             <Route path="/projects/_blank" element={<Blank />}></Route>
             <Route path="/projects/no-likes" element={<NoLikes />}></Route>
             <Route path="/projects/pexels-browser" element={<PexelsBrowser />}></Route>
-
             <Route path="/projects/robot-pigeon-ar" element={<RobotPigeonAR />}></Route>
             <Route path="/projects/modern-potions" element={<ModernPotions />}></Route>
-            
           <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
