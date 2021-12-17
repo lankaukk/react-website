@@ -4,8 +4,7 @@ import './HeroSection.css';
 
 function HeroSection() {
     return (
-        <div className='hero-container'>
-            <video src="" autoPlay loop muted />
+        <div className='hero-container'>\
             <h2>Web Developer + Designer</h2>
             
             <div className="circle c1"></div>
