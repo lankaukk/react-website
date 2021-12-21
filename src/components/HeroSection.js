@@ -4,7 +4,7 @@ import './HeroSection.css';
 
 function HeroSection() {
     return (
-        <div className='hero-container'>\
+        <div className='hero-container'>
             <h2>Web Developer + Designer</h2>
             
             <div className="circle c1"></div>
