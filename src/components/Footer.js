@@ -14,16 +14,16 @@ function Footer() {
               
             </Link>
           </div>
-          <small class='website-rights'>MCKAYLA LANKAU © 2021</small>
+          <small class='website-rights'>MCKAYLA LANKAU © 2022</small>
           <div class='social-icons'>
             
             <ExternalLink class='social-icon-link instagram' href="https://www.instagram.com/forwardchaos/">
                 <i class='fab fa-instagram' />
             </ExternalLink>
 
-            <ExternalLink class='social-icon-link youtube' href="https://www.youtube.com/channel/UCmbbTQKwmwz_5rw6V9n-15g/featured">
+            {/* <ExternalLink class='social-icon-link youtube' href="https://www.youtube.com/channel/UCmbbTQKwmwz_5rw6V9n-15g/featured">
                 <i class='fab fa-youtube' />
-            </ExternalLink>
+            </ExternalLink> */}
             
             <ExternalLink class='social-icon-link linkedin' href="https://www.linkedin.com/in/mckayla-lankau/">
                 <i class='fab fa-linkedin' />

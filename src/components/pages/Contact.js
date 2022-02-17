@@ -14,14 +14,15 @@ function Contact() {
                 alt='selfie'
             />
             
-            <p class="contact-description">I'm a JavaScript-based Web Developer and Web Designer from New York. Passionate about interdisciplinary collaboration, and creating meaningful digital products.</p>
+            <p class="contact-description">I'm a Communication Designer and Web Developer from New York. Passionate about interdisciplinary collaboration, and creating meaningful digital products.</p>
 
+            
             <p class="contact-description">
-            Currently <a href="https://www.linkedin.com/in/mckayla-lankau/" target="_blank" rel="noreferrer">Open To Work</a>, as well as for Website Commissions, and project Collaborations.
+            Email me at <a href="mailto: mckaylalankau@gmail.com">(mckaylalankau@gmail.com)</a> or message me on <a href="https://www.linkedin.com/in/mckayla-lankau/">LinkedIn</a> for Project Comissions and Collaborations. 👩‍💻
             </p>
 
             <p class="contact-description">
-            These are some of my favorite tools, but I'm always learning more!
+            
             </p>
 
             <div className="sticker-container">
@@ -118,9 +119,7 @@ function Contact() {
                 />
             </div>
             
-            <p class="contact-description">
-            Feel free to email me at <a href="mailto: mckaylalankau@gmail.com">(mckaylalankau@gmail.com)</a> or <a href="https://www.linkedin.com/in/mckayla-lankau/">LinkedIn Message</a> if you would like to work together, or just to say hi!
-            </p>
+            
 
             <br></br><br></br>
 
