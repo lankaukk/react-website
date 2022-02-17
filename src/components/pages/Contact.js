@@ -66,11 +66,11 @@ function Contact() {
                     src='images/stickers/js.png'
                     alt='sticker'
                 />
-                <img
+                {/* <img
                     class='sticker-item delay2'
                     src='images/stickers/slack.png'
                     alt='sticker'
-                />
+                /> */}
                 <img
                     class='sticker-item delay1'
                     src='images/stickers/vscode.png'
