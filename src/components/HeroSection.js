@@ -5,11 +5,13 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <h2>Web Developer + Designer</h2>
+            <h2>Web<br></br><span> </span></h2>
             
-            <div className="circle c1"></div>
+            {/* <div className="circle c1"></div>
             <div className="circle c2"></div>
-            <div className="circle c3"></div>
+            <div className="circle c3"></div> */}
+
+            <div className="circle c0"></div>
 
             <div className="line vertical l1"></div>
             <div className="line vertical l2"></div>
