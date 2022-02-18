@@ -210,7 +210,7 @@ video {
 
   }
 
-span::before {
+span {
     content: "Designer";
     animation: wordschange infinite 8s;
     animation-timing-function: ease-in-out;
