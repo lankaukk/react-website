@@ -7,7 +7,10 @@ function HeroSection() {
         <div className='hero-container'>
             <div className='bigcirclecontainer'>
             <div className="circle c0"></div>
-            <h1 style={{zIndex: '10',  fontSize: '10vw'}}>Web<br></br><span> </span></h1>
+            <h1 style={{zIndex: '10',  fontSize: '10vw'}}>
+                Web<br></br>
+                <span> </span>
+            </h1>
             </div>
             
             {/* <div className="circle c1"></div>

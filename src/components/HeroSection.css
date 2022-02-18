@@ -212,6 +212,7 @@ video {
 
 span, span::before
  {
+   display: block;
     content: "Designer";
     animation: wordschange infinite 8s;
     animation-timing-function: ease-in-out;
