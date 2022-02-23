@@ -36,23 +36,6 @@
     margin: 6px;
   }
   
-  @-webkit-keyframes fadeOut {
-    0% { opacity: 1;}
-    99% { opacity: 0.2;}
-    100% { opacity: 0.2;}
-}  
-@keyframes fadeOut {
-    0% { opacity: 1;}
-    99% { opacity: 0.2; }
-    100% { opacity: .20; }
-}
-
-#professions {
-    z-index: 100;
-    /* -webkit-animation: fadeOut 1s; */
-    animation: fadeOut 3s;
-    /* animation-fill-mode:both; */
-}
 
 .circle {
   
@@ -219,34 +202,6 @@
     }
 
   }
-
-span, span::before
- {
-   display: block;
-    content: "Designer";
-    animation: wordschange infinite 8s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-@keyframes wordschange {
-
-    0% {
-        content: "Designer";
-    }
-
-    25% {
-        content: "Developer";
-    }
-
-    50% {
-        content: "Artist";
-    }
-
-    75% {
-      content: "Engineer";
-    }
-}
 
 .bigcirclecontainer {
   width: 100vw;

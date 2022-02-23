@@ -12,7 +12,7 @@ class HeroSection extends Component {
         let counter = 0;
         let elem = document.getElementById("professions");
         console.log(elem);
-        setInterval(change, 3000);
+        setInterval(change, 1000);
         function change() {
         elem.innerHTML = text[counter];
             counter++;
@@ -24,17 +24,11 @@ class HeroSection extends Component {
         return (
             <div className='hero-container'>
                 <div className='bigcirclecontainer'>
-                <div className="circle c0"></div>
-
-
-                <h1 style={{zIndex: '10',  fontSize: '10vw'}}>
-                    Web<br></br>
-                    <div id="professions"></div>
-                    
-                </h1>
-
-                
-
+                    <div className="circle c0"></div>
+                    <h1 style={{zIndex: '10',  fontSize: '10vw'}}>
+                        Web<br></br>
+                        <div id="professions">Designer</div>
+                    </h1>
                 </div>
                 
                 {/* <div className="circle c1"></div>
