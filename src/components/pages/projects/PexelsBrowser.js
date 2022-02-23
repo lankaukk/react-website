@@ -5,13 +5,13 @@ function PexelsBrowser() {
     return (
         <div>
             <ProjectShow 
-                title="Pexels Browser"
+                title="Pexels Art"
                 linkicon="GitHub"
-                link='https://github.com/lankaukk/pexels-app'
+                link='https://github.com/lankaukk/pexels-art'
 
-                src='/images/pexels-browser.gif'
+                src='/images/pexels-art.gif'
 
-                description="Pexels Browser is a website to let users browse photos from Pexels! Visitors are greeted with a selection of curated photos and are able to search our extensive catalog of quality photos from professional photographers. ✨📸✨"
+                description="Pexels Art is a React App that fetches from the Pexels API. The typed words serve as a search query for their image database. Using the 'average color' attribute of the corresponding images, a new abstract artwork is created. 🎨"
 
                 label2=""
                 src2=''
@@ -27,7 +27,7 @@ function PexelsBrowser() {
                 src7=''
 
                 
-                date="Fall, 2021"
+                date="2022"
             />
             
         </div>

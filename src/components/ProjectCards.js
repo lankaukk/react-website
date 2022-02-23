@@ -36,7 +36,7 @@ function ProjectCards() {
             <ProjectCardItem
               src='images/pexels-browser.gif'
               text='React App fetching from the Pexels API'
-              label='Pexels Browser'
+              label='Pexels Art'
               path='/projects/pexels-browser'
             />
             <ProjectCardItem
