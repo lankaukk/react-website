@@ -30,11 +30,11 @@ function Cards() {
               label='_blank'
               path='/projects/_blank'
             />
-            <CardItem
-              src='images/potions-catalog-cover-square.jpg'
-              text='Speculative Catalog Selling Magic Potions'
-              label='Modern Potions'
-              path='/projects/modern-potions'
+           <CardItem
+              src='images/pexel-art.png'
+              text='React App fetching from the Pexels API'
+              label='Pexels Art'
+              path='/projects/pexels-browser'
             />
             <CardItem
               src='images/protest-platform-map.gif'

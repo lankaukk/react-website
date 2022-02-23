@@ -3,7 +3,7 @@ import ProjectShow from './ProjectShow'
 
 function PexelsBrowser() {
     return (
-        <div>
+        <div className='project-show-container'>
             <ProjectShow 
                 title="Pexels Art"
                 linkicon="GitHub"
@@ -11,7 +11,7 @@ function PexelsBrowser() {
 
                 src='/images/pexels-art.gif'
 
-                description="Pexels Art is a React App that fetches from the Pexels API. The typed words serve as a search query for their image database. Using the 'average color' attribute of the corresponding images, a new abstract artwork is created. 🎨"
+                description="Pexels Art is a React App that fetches from the Pexels API. The typed words serve as a search query for their database of images. Using the 'average color' attribute of the response, abstract artwork is created. 🎨"
 
                 label2=""
                 src2=''
@@ -29,7 +29,7 @@ function PexelsBrowser() {
                 
                 date="2022"
             />
-            
+            <a href='https://pexel-art.netlify.app/'>Make your own Pexel Art!</a>
         </div>
     )
 }
