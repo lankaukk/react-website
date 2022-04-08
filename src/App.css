@@ -1,6 +1,6 @@
 body, html {
   overflow-x: hidden;
-  cursor: url("https://i.ibb.co/W0nGW7G/logo-cursor-24-bit.png"), auto;
+  /* cursor: url("https://i.ibb.co/W0nGW7G/logo-cursor-24-bit.png"), auto; */
 }
 
 * {
@@ -8,6 +8,26 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: "DM Mono", monospace; 
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 a {

@@ -1,59 +1,140 @@
-import React from 'react'
-import '../../Gallery.css'
+import React from "react";
+import "../cool-gallery.css";
 
 function Gallery() {
-    return (
-        <>
-            <div className="gallery-container">
-            <div class="row"> 
+  return (
+    <>
+      <div className="gallery-container">
+        {/* graphic posters */}
 
-            {/* graphic posters */}
-                <div class="column">
-                    <img src="images/gallery/birth-of-the-moon.gif" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/plutojuice.jpg" width="100%" alt="gallery item" ></img>
-                    <img src="images/gallery/earthjuice.jpg" width="100%" alt="gallery item" ></img>
-                    <img src="images/gallery/marsjuice.jpg" width="100%" alt="gallery item"></img>
-                    
-                    <img src="images/gallery/escape.jpg" width="100%" alt="gallery item"></img>
-                </div>
+        <img className="piece"
+          src="images/gallery/birth-of-the-moon.gif"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/plutojuice.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/earthjuice.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/marsjuice.jpg"
+          
+          alt="gallery item"
+        ></img>
 
-            {/* mixed media */}
-                <div class="column">
-                    <img src="images/gallery/you-are-safe.jpg" width="100%" alt="gallery item" ></img>
-                    <img src="images/gallery/cloud-sticker.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/leafcompillation.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/chaos-smudged.gif" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/forward.jpg" width="100%" alt="gallery item"></img>
+        <img className="piece"
+          src="images/gallery/escape.jpg"
+          
+          alt="gallery item"
+        ></img>
 
-                    <img src="images/gallery/ui-study.jpg" width="100%" alt="gallery item"></img>
-                </div>
+        {/* mixed media */}
 
+        <img className="piece"
+          src="images/gallery/you-are-safe.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/cloud-sticker.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/leafcompillation.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/chaos-smudged.gif"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/forward.jpg"
+          
+          alt="gallery item"
+        ></img>
 
-                <div class="column">
-                    <img src="images/gallery/spinning-circles.gif" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/poster-1.1.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/poster-1.3.jpg" width="100%" alt="gallery item"></img>
-            
-                    <img src="images/gallery/gems.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/simulationplayground.jpg" width="100%" alt="gallery item"></img>
-                    
-                </div>
+        <img className="piece"
+          src="images/gallery/ui-study.jpg"
+          
+          alt="gallery item"
+        ></img>
 
-            {/* landscapes */}
-                <div class="column">
-                    <img src="images/gallery/fredonia.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/moonscape.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/oldfield.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/greenlawn.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/sunflowers.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/reilly.jpg" width="100%" alt="gallery item"></img>
-                    <img src="images/gallery/india.jpg" width="100%" alt="gallery item"></img>
-                </div>
-            </div>
+        <img className="piece"
+          src="images/gallery/spinning-circles.gif"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/poster-1.1.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/poster-1.3.jpg"
+          
+          alt="gallery item"
+        ></img>
 
-            </div>
-        </>
-    )
+        <img className="piece"
+          src="images/gallery/gems.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/simulationplayground.jpg"
+          
+          alt="gallery item"
+        ></img>
+
+        {/* landscapes */}
+
+        <img className="piece"
+          src="images/gallery/fredonia.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/moonscape.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/oldfield.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/greenlawn.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/sunflowers.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/reilly.jpg"
+          
+          alt="gallery item"
+        ></img>
+        <img className="piece"
+          src="images/gallery/india.jpg"
+          
+          alt="gallery item"
+        ></img>
+      </div>
+    </>
+  );
 }
 
 export default Gallery;

@@ -1,0 +1,26 @@
+.piece {
+    /* width: 200px; */
+    /* height: auto; */
+    transform: scale(.5);
+    /* height: 50%;
+    width: 50%; */
+}
+
+.gallery-container {
+    padding: 5vw;
+
+    background-color: #000000;
+    background-image: linear-gradient(#9f9f9f55 0.8px, transparent 0.8px),
+      linear-gradient(to right, #9f9f9f55 0.8px, #000000 0.8px);
+    background-size: 16px 16px;
+
+    height:75vh;
+   
+    overflow-x: scroll;
+    overflow-y: none;
+
+    display: flex;
+    
+    gap: 30px
+  }
+  
