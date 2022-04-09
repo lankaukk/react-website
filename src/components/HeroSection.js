@@ -43,17 +43,30 @@ class HeroSection extends Component {
               <img
                 src="images/gallery/escape.jpg"
                 alt="escape"
-                width="100%"
                 height="100%"
+                id="map"
               ></img>
             </div>
           </div>
-          <div className="hero-left-right"></div>
+          <div className="hero-left-right">
+          <img
+              src="images/squiggle-1.png"
+              alt="space juice"
+              height="100%"
+              id="map"
+            ></img></div>
         </div>
         <div className="hero-right">
           <div className="hero-right-top">
             <div className="cool-pattern"></div>
-            <div className="cool-mockup"></div>
+            <div className="cool-mockup">
+            <img
+              src="images/SpaceJuice.jpg"
+              alt="space juice"
+              height="100%"
+              id="map"
+            ></img>
+            </div>
           </div>
           <div className="hero-right-bottom">
             <img
