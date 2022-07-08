@@ -1,217 +1,52 @@
 .hero-container {
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(21,37,190,1) 50%, rgba(238,130,238,1) 100%);
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-    text-align: center;
-    
-  }
-
-  
-  .hero-container > h2 {
-    color: #fff;
-    font-size: 90px;
-    margin-top: -100px;
-    z-index: 10;
-  }
-  
-  .hero-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .hero-btns {
-    margin-top: 32px;
-  }
-  
-  .hero-btns .btn {
-    margin: 6px;
-  }
-  
-
-.circle {
-  
-  /* max-width: 260px;
-  max-height: 260px; */
-  /* background-color: red; */
-  border-radius: 50%;
-
-  opacity: 1;
-  background: rgb(2,0,36);
-  background: rgba(21,37,190,1);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(21,37,190,1) 50%, rgba(238,130,238,1) 100%);
-
-  /* box-shadow:
-    inset 0 0 50px #fff,
-    inset 20px 0 40px #f0f,
-    inset -20px 0 40px #0ff,
-    inset 20px 0 300px #f0f,
-    inset -20px 0 300px #0ff,
-    0 0 50px #fff,
-    -10px 0 40px #f0f,
-    10px 0 40px #0ff; */
- 
-  position: absolute;
-  
-  
-  animation-name: rotate;
-    animation-duration: 45s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-@keyframes rotate{
-  from{ transform: rotate(-360deg); }
-  to{ transform: rotate(360deg); }
-}
-
-.c0 {
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(21,37,190,1) 50%, rgba(238,130,238,1) 100%);
-  height: 80vw;
-  width: 80vw;
-  
-  opacity: .7;
-}
-
-.c1 {
-  height:30vw;
-  width:30vw;
-  top: 15%;
-  left: 10%;
-  animation-delay: 1s;
-}
-
-.c2 {
-  height:25vw;
-  width:25vw;
-  bottom: 25%;
-  right: 10%;
-  animation-delay: 2s;
-}
-
-.c3 {
-  height:20vw;
-  width:20vw;
-  top: 75%;
-  left: 25%;
-}
-
-.line {
-  opacity: .6;
-  background-color: lime;
-  position: absolute;
-}
-
-.vertical {
-  height: 78vh;
-  width: 2px;
-
-  animation: vertical-shift 3s;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-.horizontal {
-  width: 68vw;
-  height: 2px;
-
-  animation: horizontal-shift 3s;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-.l1 {
-  top: 14%;
-  left: 12%;
-}
-.l2 {
-  top: 16%;
-  left: 14%;
-  animation-delay: .6s;
-}
-.l3 {
-  top: 15%;
-  right: 12%;
-  animation-delay: .3s;
-}
-
-.l4 {
-  bottom: 10vh;
-  left: 10%;
-}
-.l5 {
-  top: 18vh;
-  right: 10%;
-  animation-delay: 1.5s;
-}
-
-@keyframes vertical-shift {
-  from {
-      transform: translate3d(0, 0, 0);
-  }
-  to {
-      transform: translate3d(0, 50px, 0);
-  }
-}
-
-@keyframes horizontal-shift {
-  from {
-      transform: translate3d(0, 0, 0);
-  }
-  to {
-      transform: translate3d(50px, 0, 0);
-  }
-}
-
-
-  
-  @media screen and (max-width: 960px) {
-    .hero-container > h2 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .hero-container > h2 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .hero-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-
-  }
-
-.bigcirclecontainer {
-  width: 100vw;
   height: 80vh;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  object-fit: contain;
+  text-align: center;
+}
 
-  position: relative;
-  bottom: 40px;
+.hero-container > h2 {
+  color: #fff;
+  font-size: 90px;
+  margin-top: -100px;
+  z-index: 10;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h2 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h2 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
 }
