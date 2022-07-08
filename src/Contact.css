@@ -27,15 +27,20 @@
 }
 
 .sticker-container {
-  display: none;
-  /* display: flex; */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem;
-  width: 60vw;
-  max-width: 950px;
-}
 
+  width: 100vw;
+  max-width: 950px;
+
+  opacity: .5;
+  z-index: -100;
+}
 
 @media screen and (max-width: 960px) {
   .contact-container {
@@ -55,7 +60,7 @@
   }
 
   .sticker-container {
-    width: 110vw;
+    
   }
 }
 
@@ -63,11 +68,13 @@
   height: 8vh;
   margin: 16px;
 
-  -webkit-animation: bounce 3s infinite ease-in-out;
-  -o-animation: bounce 3s infinite ease-in-out;
-  -ms-animation: bounce 3s infinite ease-in-out;
-  -moz-animation: bounce 3s infinite ease-in-out;
-  animation: bounce 3s infinite ease-in-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  /* animation: bounce 3s infinite ease-in-out; */
+  animation: fall 15s linear infinite;
+
 }
 
 .delay1 {
@@ -84,6 +91,31 @@
 }
 .delay5 {
   animation-delay: 2.5s;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 1;
+    top: -10%;
+    transform: translateX (20px) rotate(0deg);
+  }
+  20% {
+    opacity: 0.8;
+    transform: translateX (-20px) rotate(45deg);
+  }
+  40% {
+    transform: translateX (-20px) rotate(90deg);
+  }
+  60% {
+    transform: translateX (-20px) rotate(135deg);
+  }
+  80% {
+    transform: translateX (-20px) rotate(180deg);
+  }
+  100% {
+    top: 110%;
+    transform: translateX (-20px) rotate(225deg);
+  }
 }
 
 @-webkit-keyframes bounce {
@@ -109,4 +141,3 @@
     transform: translateY(-5px);
   }
 }
-
