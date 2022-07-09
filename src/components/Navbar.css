@@ -74,7 +74,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
     position: absolute;
     top: 10vh;
@@ -86,13 +86,11 @@
   }
 
   .nav-menu.active {
-    background: rgb(2, 0, 36);
     background: linear-gradient(
-      00deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(21, 37, 190, 1) 50%,
-      rgba(238, 130, 238, 1) 100%
-    );
+    180deg,
+    rgba(117, 79, 153, 1) 0%,
+    rgba(11, 20, 79, 1) 86%
+  );
     left: -2.5rem;
     opacity: 1;
     transition: all 0.5s ease;
