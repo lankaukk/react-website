@@ -6,6 +6,7 @@
   max-width: 950px;
   min-height: 80vh;
   margin: auto;
+  
 }
 
 .contact-heading {
@@ -28,18 +29,29 @@
 
 .sticker-container {
   position: absolute;
-  top: 0;
+  top: -20vh;
   left: 0;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-content: flex-start;
 
   width: 100vw;
-  max-width: 950px;
+  height: 120vh;
+  
+  overflow: hidden;
 
-  opacity: .5;
+  opacity: .7;
   z-index: -100;
+}
+
+.sticker {
+  height: 10vh;
+  position: relative;
+  
+  animation: fall 5s linear infinite;
+ 
 }
 
 @media screen and (max-width: 960px) {
@@ -58,86 +70,42 @@
     width: 80vw;
     font-size: 14pt;
   }
-
-  .sticker-container {
-    
+  .sticker {
+    height: 8vh;
   }
 }
 
-.sticker-item {
-  height: 8vh;
-  margin: 16px;
 
-  position: absolute;
-  left: 0;
-  top: 0;
-
-  /* animation: bounce 3s infinite ease-in-out; */
-  animation: fall 15s linear infinite;
-
-}
 
 .delay1 {
-  animation-delay: 0.5s;
+  animation-delay: -2s;
 }
 .delay2 {
-  animation-delay: 1s;
+  animation-delay: -1s;
 }
 .delay3 {
-  animation-delay: 1.5s;
+  animation-delay: -3s;
 }
 .delay4 {
-  animation-delay: 2s;
+  animation-delay: -4s;
 }
 .delay5 {
-  animation-delay: 2.5s;
+  animation-delay: -1.5s;
 }
 
 @keyframes fall {
   0% {
     opacity: 1;
-    top: -10%;
-    transform: translateX (20px) rotate(0deg);
-  }
-  20% {
-    opacity: 0.8;
-    transform: translateX (-20px) rotate(45deg);
-  }
-  40% {
-    transform: translateX (-20px) rotate(90deg);
-  }
-  60% {
-    transform: translateX (-20px) rotate(135deg);
-  }
-  80% {
-    transform: translateX (-20px) rotate(180deg);
-  }
-  100% {
-    top: 110%;
-    transform: translateX (-20px) rotate(225deg);
-  }
-}
-
-@-webkit-keyframes bounce {
-  0% {
-    transform: translateY(-5px);
+    top: -10vh;
+    transform: rotate(10deg);
   }
   50% {
-    transform: translateY(10px);
+    opacity: .2;
+    transform: rotate(180deg);
   }
   100% {
-    transform: translateY(-5px);
-  }
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(-5px);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(-5px);
+    opacity: 0;
+    top: 100vh;
+    transform: rotate(360deg);
   }
 }
