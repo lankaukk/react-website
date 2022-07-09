@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
 
 function Footer() {
@@ -14,10 +13,6 @@ function Footer() {
         >
           <i class="fab fa-instagram" />
         </ExternalLink>
-
-        {/* <ExternalLink class='social-icon-link youtube' href="https://www.youtube.com/channel/UCmbbTQKwmwz_5rw6V9n-15g/featured">
-                <i class='fab fa-youtube' />
-            </ExternalLink> */}
 
         <ExternalLink
           class="social-icon-link linkedin"
