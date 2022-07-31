@@ -3,10 +3,10 @@ import "../../App.css";
 
 export class Occupation extends Component {
   componentDidMount() {
-    const text0 = ["Web ", "UI ", "Digital ", "UX "];
+    const text0 = ["Interactive", "Bold", "Graphic"];
     let elem0 = document.getElementById("adjectives");
     let mycounter = 0;
-    setInterval(change2, 900);
+    setInterval(change2, 2000);
     function change2() {
       elem0.innerHTML = text0[mycounter];
       mycounter++;
@@ -14,41 +14,16 @@ export class Occupation extends Component {
         mycounter = 0;
       }
     }
-
-    const text = [" Designer", " Developer", " Artist", " Engineer"];
-    let elem = document.getElementById("professions");
-    let counter = 0;
-    setInterval(change, 1100);
-    function change() {
-      elem.innerHTML = text[counter];
-      counter++;
-      if (counter >= text.length) {
-        counter = 0;
-      }
-    }
   }
 
   render() {
     return (
-      <div
-        style={{
-          fontSize: "4.5em",
-          position: "absolute",
-          top: "60%",
-          left: "5%",
-        }}
-      >
+      <div>
         <span
           id="adjectives"
           style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
         >
-          Web{" "}
-        </span>
-        <span
-          id="professions"
-          style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
-        >
-          Designer
+          Interactive{" "}
         </span>
       </div>
     );
