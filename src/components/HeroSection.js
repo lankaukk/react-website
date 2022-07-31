@@ -44,8 +44,8 @@ class HeroSection extends Component {
             <img
               className="hero-image"
               style={{
-                width: "10vw",
-                minWidth: "140px",
+                
+                
 
                 top: "20%",
                 right: "20%",
@@ -58,8 +58,8 @@ class HeroSection extends Component {
             <img
               className="blurry hero-image"
               style={{
-                width: "10vw",
-                minWidth: "140px",
+                
+                
                 maxWidth: "200px",
                 top: "35%",
                 right: "15%",
@@ -73,8 +73,8 @@ class HeroSection extends Component {
             <img
               className="hero-image"
               style={{
-                width: "10vw",
-                minWidth: "140px",
+                
+                
                 maxWidth: "200px",
 
                 bottom: "30%",
@@ -88,8 +88,8 @@ class HeroSection extends Component {
             <img
               className="hero-image"
               style={{
-                width: "7vw",
-                minWidth: "140px",
+                
+                
                 maxWidth: "200px",
 
                 bottom: "18%",
