@@ -5,7 +5,7 @@ import { ExternalLink } from "react-external-link";
 function Footer() {
   return (
     <div className="footer-container">
-      <small class="website-rights">MCKAYLA LANKAU © 2022</small>
+      <small class="website-rights">MCKAYLA<span style={{opacity: 0}}>_</span>LANKAU<span style={{opacity: 0}}>_</span>©<span style={{opacity: 0}}>_</span>2022</small>
       <div class="social-icons">
         <ExternalLink
           class="social-icon-link instagram"

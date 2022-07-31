@@ -8,12 +8,29 @@ class HeroSection extends Component {
   render() {
     return (
       <div className="hero-container">
-        <Occupation style={{}} />
+        {/* <Occupation style={{}} /> */}
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100%',
+            width: '100%',
+            fontFamily: "Staatliches",
+            textTransform: "uppercase",
+            fontSize: '6vw'
+          }}
+        >
+          <div>Interactive Web Design</div>
+          <div>& Development</div>
+          <div>for Creative</div>
+          <div>Digital Experiences</div>
+        </div>
         <img
           style={{
-            width: "35vw",
-            minWidth: "250px",
-            maxWidth: "400px",
+            width: "10vw",
+            minWidth: "140px",
             position: "absolute",
             top: "20%",
             right: "20%",
@@ -23,26 +40,41 @@ class HeroSection extends Component {
         />
         <img
           style={{
-            width: "25vw",
-            minWidth: "150px",
+            width: "10vw",
+            minWidth: "140px",
             maxWidth: "200px",
             position: "absolute",
             top: "35%",
             right: "15%",
+            filter: "blur(3px)",
+            borderRadius: 10,
           }}
-          src="images/hero/logo-cursor.png"
+          src="images/projects/blank/desk-person.jpg"
           alt="art"
         />
         <img
           style={{
-            width: "25vw",
-            minWidth: "150px",
+            width: "10vw",
+            minWidth: "140px",
             maxWidth: "200px",
             position: "absolute",
-            bottom: "20%",
+            bottom: "30%",
             left: "20%",
           }}
           src="images/hero/grid-light-1.png"
+          alt="art"
+        />
+        <img
+          style={{
+            width: "7vw",
+            minWidth: "140px",
+            maxWidth: "200px",
+            position: "absolute",
+            bottom: "20%",
+            left: "40%",
+            borderRadius: 20,
+          }}
+          src="images/journal-mockup.jpg"
           alt="art"
         />
       </div>
