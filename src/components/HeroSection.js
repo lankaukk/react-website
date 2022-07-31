@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import "../App.css";
 import "./HeroSection.css";
-import { Occupation } from "./HeroItems/Occupation.js";
+// import { Occupation } from "./HeroItems/Occupation.js";
 
 class HeroSection extends Component {
   render() {
