@@ -7,7 +7,7 @@
   height: 80vh;
   margin: auto;
   padding: 5vh 0vh;
-  overflow: scroll;
+  
 }
 
 .contact-heading {
@@ -60,8 +60,8 @@
     gap: 30px;
     align-items: center;
     margin: auto;
-    /* top: -15vh; */
     position: relative;
+    overflow-y: scroll;
   
   }
 
