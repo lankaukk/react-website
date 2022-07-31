@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <div className="contact-container">
         <div className="contact-heading">
-          <h1 className="hi">Hi! I'm McKayla 👩‍💻</h1>
+          <div className="hi">Hi! I'm McKayla 👩‍💻</div>
           <img class="pro-pic" src="images/pro-pic.jpg" alt="selfie" />
         </div>
 
