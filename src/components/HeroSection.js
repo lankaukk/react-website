@@ -5,7 +5,6 @@ import { Occupation } from "./HeroItems/Occupation.js";
 import Draggable from "react-draggable";
 
 export var HeroSection = () => {
-  const RandNum = Math.random() * (80 - 20) + 20 + "%";
 
   return (
     <div className="hero-container">
