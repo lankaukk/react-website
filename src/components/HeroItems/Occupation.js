@@ -3,7 +3,7 @@ import "../../App.css";
 
 export class Occupation extends Component {
   componentDidMount() {
-    const text0 = ["Interactive", "Bold", "Graphic"];
+    const text0 = ["Interactive", "Graphic"];
     let elem0 = document.getElementById("adjectives");
     let mycounter = 0;
     setInterval(change2, 2000);
@@ -23,7 +23,7 @@ export class Occupation extends Component {
           id="adjectives"
           style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
         >
-          Interactive{" "}
+          Interactive
         </span>
       </div>
     );

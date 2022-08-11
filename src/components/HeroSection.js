@@ -5,7 +5,7 @@ import { Occupation } from "./HeroItems/Occupation.js";
 import Draggable from "react-draggable";
 
 export var HeroSection = () => {
-  const RandNum = Math.random() * (90 - 10) + 10 + "%";
+  const RandNum = Math.random() * (80 - 20) + 20 + "%";
 
   return (
     <div className="hero-container">
@@ -13,7 +13,6 @@ export var HeroSection = () => {
         <div style={{ display: "flex", flexDirection: "row", gap: ".6em" }}>
           <Occupation style={{}} />
           <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
-            {" "}
             Web Design
           </div>
         </div>
@@ -21,15 +20,15 @@ export var HeroSection = () => {
           <span style={{}}>&</span> Development
         </div>
         <div>
-          <span style={{ fontFamily: "Sniglet", fontWeight: "bold" }}>FOR</span>{" "}
+          <span style={{ fontFamily: "Sniglet", fontWeight: "bold" }}>FOR</span>
           <span
             style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
           >
-            Creative
+            {"  "}Creative
           </span>
         </div>
         <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
-          Digital{" "}
+          Digital{"  "}
           <span style={{ fontFamily: "Sniglet", fontWeight: "bold" }}>
             Experiences
           </span>
@@ -40,7 +39,7 @@ export var HeroSection = () => {
         <Draggable>
           <img
             className="hero-image"
-            style={{ top: Math.random() * (90 - 10) + 10 + "%", left: Math.random() * (90 - 10) + 10 + "%" }}
+            style={{ top: Math.random() * (80 - 20) + 10  + "%", left: Math.random() * (80 - 20) + 20 + "%" }}
             src="images/hero/squiggle-1.png"
             alt="art"
           />
@@ -51,7 +50,7 @@ export var HeroSection = () => {
             style={{
               borderRadius: 10,
               filter: "blur(3px)",
-              top: Math.random() * (90 - 10) + 10 + "%", left: Math.random() * (90 - 10) + 10 + "%"
+              top: Math.random() * (80 - 20) + 10  + "%", left: Math.random() * (80 - 20) + 20 + "%"
             }}
             src="images/projects/blank/desk-person.jpg"
             alt="art"
@@ -60,7 +59,7 @@ export var HeroSection = () => {
         <Draggable>
           <img
             className="hero-image"
-            style={{ top: Math.random() * (90 - 10) + 10 + "%", left: Math.random() * (90 - 10) + 10 + "%" }}
+            style={{ top: Math.random() * (80 - 20) + 10  + "%", left: Math.random() * (80 - 20) + 20 + "%" }}
             src="images/hero/grid-light-1.png"
             alt="art"
           />
@@ -68,7 +67,7 @@ export var HeroSection = () => {
         <Draggable>
           <img
             className="hero-image"
-            style={{ borderRadius: 10,  top: Math.random() * (90 - 10) + 10 + "%", left: Math.random() * (90 - 10) + 10 + "%" }}
+            style={{ borderRadius: 10,  top: Math.random() * (80 - 20) + 10  + "%", left: Math.random() * (80 - 20) + 20 + "%" }}
             src="images/journal-mockup.jpg"
             alt="art"
           />
