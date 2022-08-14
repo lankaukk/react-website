@@ -33,7 +33,6 @@
   text-align: center;
   width: 80vw;
   justify-content: end;
-  margin-right: 2rem;
 }
 
 .nav-item {
@@ -86,11 +85,7 @@
   }
 
   .nav-menu.active {
-    background: linear-gradient(
-    180deg,
-    rgba(117, 79, 153, 1) 0%,
-    rgba(11, 20, 79, 1) 86%
-  );
+    background: #242424;
     left: -2.5rem;
     opacity: 1;
     transition: all 0.5s ease;

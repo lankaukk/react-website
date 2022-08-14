@@ -2,23 +2,23 @@ import React from "react";
 import "../App.css";
 import "./HeroSection.css";
 import { Occupation } from "./HeroItems/Occupation.js";
-import Draggable from "react-draggable";
+// import Draggable from "react-draggable";
 import { Link } from "react-router-dom";
 
 export var HeroSection = () => {
   return (
     <div className="hero-container">
       <div className="hero-text-container">
-        <div style={{ display: "flex", flexDirection: "row", gap: ".6em" }}>
+        <div style={{ display: "flex", flexDirection: "row", gap: ".3em" }}>
           <Occupation style={{}} />
           <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
             Web Design
           </div>
         </div>
         <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
-          <span style={{}}>&</span> Development
+          & Development
         </div>
-        <div>
+        <div style={{ display: "flex", flexDirection: "row", gap: ".3em" }}>
           <span style={{ fontFamily: "Sniglet", fontWeight: "bold" }}>FOR</span>
           <span
             style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
@@ -36,7 +36,7 @@ export var HeroSection = () => {
 
       <div className="image-container">
       <Link to="/gallery">
-        <Draggable>
+        
           <img
             className="hero-image"
             style={{
@@ -46,10 +46,10 @@ export var HeroSection = () => {
             src="images/hero/squiggle-1.png"
             alt="art"
           />
-        </Draggable>
+        
         </Link>
         <Link to="/projects/_blank">
-          <Draggable>
+          
             <img
               className="blurry hero-image"
               style={{
@@ -61,10 +61,10 @@ export var HeroSection = () => {
               src="images/projects/blank/desk-person.jpg"
               alt="art"
             />
-          </Draggable>
+          
         </Link>
         <Link to="/gallery">
-        <Draggable>
+        
           <img
             className="hero-image"
             style={{
@@ -74,10 +74,10 @@ export var HeroSection = () => {
             src="images/hero/grid-light-1.png"
             alt="art"
           />
-        </Draggable>
+        
         </Link>
         <Link to="/projects/journal-app-design">
-        <Draggable>
+        
           <img
             className="hero-image"
             style={{
@@ -88,7 +88,7 @@ export var HeroSection = () => {
             src="images/journal-mockup.jpg"
             alt="art"
           />
-        </Draggable>
+        
         </Link>
       </div>
     </div>
