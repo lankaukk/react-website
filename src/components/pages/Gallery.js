@@ -25,6 +25,13 @@ function Gallery() {
       .catch((err) => console.error(err));
   }, []);
 
+  const [focusBeach, setFocusBeach] = useState(false);
+
+  const handleFocus = (artwork) => {
+    setFocusBeach(!focusBeach);
+    console.log(artwork);
+  };
+
   return (
     <>
       <div className="gallery-container">
@@ -34,9 +41,31 @@ function Gallery() {
             imageUrl={artwork.imageUrl}
             date={artwork.date}
             medium={artwork.medium}
+            onClick={() => handleFocus(artwork)}
           />
         ))}
       </div>
+
+      {focusBeach ? (
+        <div
+          style={{
+            background: "lime",
+            position: "absolute",
+            top: "10vh",
+            left: "0",
+            width: "100%",
+            height: "90vh",
+            zIndex: "100",
+          }}
+        >
+          <GalleryCard
+            title={focusBeach.title}
+            imageUrl={focusBeach.imageUrl}
+            date={focusBeach.date}
+            medium={focusBeach.medium}
+          />
+        </div>
+      ) : null}
     </>
   );
 }
