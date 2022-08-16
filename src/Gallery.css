@@ -1,4 +1,10 @@
 .gallery-container {
-    padding: 5vw;
+  padding: 5vw;
+  width: 90vw;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
 }
-
