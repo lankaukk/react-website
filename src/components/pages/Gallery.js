@@ -4,15 +4,14 @@ import { GalleryCard } from "../gallerycard.js";
 import { useState, useEffect } from "react";
 
 function Gallery() {
-  let PROJECT_ID = "j1fgz8za";
-  let DATASET = "production";
-  let QUERY = encodeURIComponent('*[_type == "artwork"]');
-
-  let URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
-
   const [artworks, setArtworks] = useState([]);
 
   useEffect(() => {
+    let PROJECT_ID = "j1fgz8za";
+    let DATASET = "production";
+    let QUERY = encodeURIComponent('*[_type == "artwork"]');
+
+    let URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
     fetch(URL)
       .then((res) => res.json())
       .then(({ result }) => {
