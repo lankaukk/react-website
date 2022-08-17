@@ -1,9 +1,12 @@
 import React from "react";
 
 export var GalleryCard = (props) => {
+  const date = props.date;
+  const year = date.slice(0, 4);
+
   return (
     <div>
-      <div className="card-holder" >
+      <div className="card-holder">
         <img
           src={props.imageUrl}
           alt="gallery item"
@@ -15,13 +18,13 @@ export var GalleryCard = (props) => {
             display: "flex",
             flexDirection: "column",
             gap: ".3em",
-            color: "rgb(28, 28, 28)",
+            color: "black",
             background: "white",
           }}
         >
-          <div>{props.title}</div>
+          <div style={{ fontSize: ".9em" }}>{props.title}</div>
           <div style={{ fontSize: ".7em" }}>
-            {props.medium}, {props.date}
+            {props.medium}, {year}
           </div>
         </div>
       </div>
