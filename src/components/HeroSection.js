@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./HeroSection.css";
-import { Occupation } from "./HeroItems/Occupation.js";
+import { ChangingText } from "./HeroItems/ChangingText.js";
 // import Draggable from "react-draggable";
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ export var HeroSection = () => {
     <div className="hero-container">
       <div className="hero-text-container">
         <div style={{ display: "flex", flexDirection: "row", gap: ".3em" }}>
-          <Occupation style={{}} />
+          <ChangingText text={["Interactive", "Graphic"]} /> 
           <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
             Web Design
           </div>
@@ -20,11 +20,8 @@ export var HeroSection = () => {
         </div>
         <div style={{ display: "flex", flexDirection: "row", gap: ".3em" }}>
           <span style={{ fontFamily: "Sniglet", fontWeight: "bold" }}>FOR</span>
-          <span
-            style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
-          >
-            {"  "}Creative
-          </span>
+          <ChangingText text={["Creative", "Bold", "Artistic"]} />
+          
         </div>
         <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
           Digital{"  "}
@@ -35,8 +32,7 @@ export var HeroSection = () => {
       </div>
 
       <div className="image-container">
-      <Link to="/gallery">
-        
+        <Link to="/gallery">
           <img
             className="hero-image"
             style={{
@@ -46,25 +42,21 @@ export var HeroSection = () => {
             src="images/hero/squiggle-1.png"
             alt="art"
           />
-        
         </Link>
         <Link to="/projects/_blank">
-          
-            <img
-              className="blurry hero-image"
-              style={{
-                borderRadius: 10,
-                filter: "blur(3px)",
-                top: Math.random() * (80 - 20) + 10 + "%",
-                left: Math.random() * (80 - 20) + 10 + "%",
-              }}
-              src="images/projects/blank/desk-person.jpg"
-              alt="art"
-            />
-          
+          <img
+            className="blurry hero-image"
+            style={{
+              borderRadius: 10,
+              filter: "blur(3px)",
+              top: Math.random() * (80 - 20) + 10 + "%",
+              left: Math.random() * (80 - 20) + 10 + "%",
+            }}
+            src="images/projects/blank/desk-person.jpg"
+            alt="art"
+          />
         </Link>
         <Link to="/gallery">
-        
           <img
             className="hero-image"
             style={{
@@ -74,10 +66,8 @@ export var HeroSection = () => {
             src="images/hero/grid-light-1.png"
             alt="art"
           />
-        
         </Link>
         <Link to="/projects/journal-app-design">
-        
           <img
             className="hero-image"
             style={{
@@ -88,7 +78,6 @@ export var HeroSection = () => {
             src="images/journal-mockup.jpg"
             alt="art"
           />
-        
         </Link>
       </div>
     </div>
