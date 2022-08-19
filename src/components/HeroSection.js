@@ -41,9 +41,6 @@ class HeroSection extends Component {
                     </h1>
                 </div>
                 
-                {/* <div className="circle c1"></div>
-                <div className="circle c2"></div>
-                <div className="circle c3"></div> */}
 
                 <div className="line vertical l1"></div>
                 <div className="line vertical l2"></div>
