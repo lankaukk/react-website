@@ -41,7 +41,7 @@ export var HeroSection = () => {
             className="hero-image"
             style={{
               top: Math.random() * (80 - 20) + 10 + "%",
-              left: Math.random() * (80 - 20) + 20 + "%",
+              left: Math.random() * (80 - 20) + 10 + "%",
             }}
             src="images/hero/squiggle-1.png"
             alt="art"
@@ -56,7 +56,7 @@ export var HeroSection = () => {
                 borderRadius: 10,
                 filter: "blur(3px)",
                 top: Math.random() * (80 - 20) + 10 + "%",
-                left: Math.random() * (80 - 20) + 20 + "%",
+                left: Math.random() * (80 - 20) + 10 + "%",
               }}
               src="images/projects/blank/desk-person.jpg"
               alt="art"
@@ -69,7 +69,7 @@ export var HeroSection = () => {
             className="hero-image"
             style={{
               top: Math.random() * (80 - 20) + 10 + "%",
-              left: Math.random() * (80 - 20) + 20 + "%",
+              left: Math.random() * (80 - 20) + 10 + "%",
             }}
             src="images/hero/grid-light-1.png"
             alt="art"
@@ -83,7 +83,7 @@ export var HeroSection = () => {
             style={{
               borderRadius: 10,
               top: Math.random() * (80 - 20) + 10 + "%",
-              left: Math.random() * (80 - 20) + 20 + "%",
+              left: Math.random() * (80 - 20) + 10 + "%",
             }}
             src="images/journal-mockup.jpg"
             alt="art"

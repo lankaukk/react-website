@@ -26,19 +26,19 @@
 }
 
 .hero-image:hover {
-  opacity: 1;
-  cursor: grab;
+  opacity: .7;
+  /* cursor: grab; */
 }
 
 .hero-image:active {
-  cursor: grabbing;
+  /* cursor: grabbing; */
 }
 
 .hero-image {
   position: absolute;
  
-  opacity: 0.7;
-  width: 10vw;
+  opacity: 1;
+  width: 9vw;
   min-width: 130px;
 }
 
