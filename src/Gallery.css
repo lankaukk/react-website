@@ -27,7 +27,7 @@
 
   height: 100px;
   width: 100px;
-  position: absolute;
+  position: fixed;
 
   animation: bubble 7s linear infinite;
 }
@@ -58,7 +58,7 @@
   content: "";
   height: 100px;
   width: 100px;
-  position: absolute;
+  position: fixed;
   
 
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
