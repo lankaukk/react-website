@@ -1,85 +1,121 @@
-.hi {
-  text-align: center;
-}
-
-.pro-pic {
-    height: 50vh;
-    /* border-radius: 50%; */
-    margin: 10px;
-    
-  }
-
 .contact-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  max-width: 950px;
+  height: 80vh;
+  margin: auto;
+  padding: 50px 0vh;
+  font-size: 16pt;
+}
+
+.contact-heading {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 40vh;
 }
+
+.pro-pic {
+  width: 100%;
+  border-radius: 5%;
+}
+.hi {
+  width: 150%;
+  text-align: center;
+}
+.contact-description {
+  width: 60vw;
+  text-align: left;
   
+}
+
+.sticker-container {
+  position: absolute;
+  top: -20vh;
+  left: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+
+  width: 100vw;
+  height: 120vh;
+
+  overflow: hidden;
+  z-index: -100;
+  gap: 31px;
+}
+
+.sticker {
+  height: 10vh;
+  position: relative;
+  mix-blend-mode: color-dodge;
+
+  animation: fall 5s linear infinite;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .pro-pic {
+    width: 30vh;
+  }
+
   .contact-description {
-    width: 60vw;
-    text-align: left;
-    padding: 10px 0 10px 0;
-    font-size: 16pt;
+    width: 80vw;
+    font-size: 14pt;
   }
-  
-  .sticker-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem;
-    width: 60vw;
-  }
-  
-.sticker-item {
+  .sticker {
     height: 8vh;
-    margin: 16px;
-  
-    -webkit-animation: bounce 3s infinite ease-in-out;
-      -o-animation: bounce 3s infinite ease-in-out;
-      -ms-animation: bounce 3s infinite ease-in-out; 
-      -moz-animation: bounce 3s infinite ease-in-out; 
-      animation: bounce 3s infinite ease-in-out;
-  
+  }
+
+  .hi {
+    width: 100%;
+    text-align: center;
+  }
 }
-  
-  .delay1 {
-    animation-delay: .5s;
+
+.delay1 {
+  animation-delay: -2s;
+}
+.delay2 {
+  animation-delay: -1s;
+}
+.delay3 {
+  animation-delay: -3s;
+}
+.delay4 {
+  animation-delay: -4s;
+}
+.delay5 {
+  animation-delay: -1.5s;
+}
+
+@keyframes fall {
+  0% {
+    opacity: 1;
+    top: -10vh;
+    transform: rotate(10deg);
   }
-  .delay2 {
-    animation-delay: 1s;
+  50% {
+    opacity: 0.2;
+    transform: rotate(180deg);
   }
-  .delay3 {
-    animation-delay: 1.5s;
+  100% {
+    opacity: 0;
+    top: 100vh;
+    transform: rotate(360deg);
   }
-  .delay4 {
-    animation-delay: 2s;
-  }
-  .delay5 {
-    animation-delay: 2.5s;
-  }
-  
-  @-webkit-keyframes bounce {
-    0% { transform: translateY(-5px)  }
-    50% { transform: translateY(10px) }
-    100% { transform: translateY(-5px) }
-  }
-  
-  @keyframes bounce {
-    0% { transform: translateY(-5px)  }
-    50% { transform: translateY(10px) }
-    100% { transform: translateY(-5px) }
-  }
-  
-  
-  
-  @media screen and (max-width: 960px) {
-    .contact-description {
-      width: 80vw; 
-      font-size: 14pt;
-    }
-  
-    .sticker-container {
-      width: 110vw;
-    }
-  }
+}

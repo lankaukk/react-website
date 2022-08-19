@@ -1,4 +1,84 @@
 .gallery-container {
-    padding: 5vw;
+  padding: 5vw;
+  width: "100%";
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-between;
 }
 
+.card-holder {
+  width: 16vw;
+}
+
+@media screen and (max-width: 960px) {
+  .card-holder {
+    width: 40vw;
+  }
+}
+
+.bubble {
+  border-radius: 50%;
+
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+    inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+
+  height: 100px;
+  width: 100px;
+  position: fixed;
+
+  animation: bubble 7s linear infinite;
+}
+
+@keyframes bubble {
+  0% {
+    top: -10vh;
+    left: 5vw;
+  }
+  25% {
+    left: 8vw;
+  }
+  50% {
+    left: 5vw;
+  }
+  75% {
+    left: 8vw;
+  }
+  100% {
+    top: 100vh;
+    left: 5vw;
+  }
+}
+
+.bubble:after {
+  border-radius: 50%;
+
+  content: "";
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  
+
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+  inset 0px 10px 30px 5px rgb(50, 161, 251);
+  display: block;
+
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.bubble:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.bubble:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  animation-play-state: paused;
+  transform: translate(0.5);
+}

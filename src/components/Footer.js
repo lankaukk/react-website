@@ -1,40 +1,33 @@
-import React from 'react';
-import './Footer.css';
-import { Link } from 'react-router-dom';
-import { ExternalLink } from 'react-external-link';
+import React from "react";
+import "./Footer.css";
+import { ExternalLink } from "react-external-link";
 
 function Footer() {
   return (
-    <div className='footer-container'>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              MCKAYLA LANKAU
-              
-            </Link>
-          </div>
-          <small class='website-rights'>MCKAYLA LANKAU © 2022</small>
-          <div class='social-icons'>
-            
-            <ExternalLink class='social-icon-link instagram' href="https://www.instagram.com/forwardchaos/">
-                <i class='fab fa-instagram' />
-            </ExternalLink>
+    <div className="footer-container">
+      <small className="website-rights">MCKAYLA<span style={{opacity: 0}}>_</span>LANKAU<span style={{opacity: 0}}>_</span>©<span style={{opacity: 0}}>_</span>2022</small>
+      <div className="social-icons">
+        <ExternalLink
+          className="social-icon-link instagram"
+          href="https://www.instagram.com/forwardchaos/"
+        >
+          <i className="fab fa-instagram" />
+        </ExternalLink>
 
-            {/* <ExternalLink class='social-icon-link youtube' href="https://www.youtube.com/channel/UCmbbTQKwmwz_5rw6V9n-15g/featured">
-                <i class='fab fa-youtube' />
-            </ExternalLink> */}
-            
-            <ExternalLink class='social-icon-link linkedin' href="https://www.linkedin.com/in/mckayla-lankau/">
-                <i class='fab fa-linkedin' />
-            </ExternalLink>
+        <ExternalLink
+          className="social-icon-link linkedin"
+          href="https://www.linkedin.com/in/mckayla-lankau/"
+        >
+          <i className="fab fa-linkedin" />
+        </ExternalLink>
 
-            <ExternalLink class='social-icon-link github' href="https://github.com/lankaukk">
-                <i class='fab fa-github' />
-            </ExternalLink>
-          </div>
-        </div>
-      </section>
+        <ExternalLink
+          className="social-icon-link github"
+          href="https://github.com/lankaukk"
+        >
+          <i className="fab fa-github" />
+        </ExternalLink>
+      </div>
     </div>
   );
 }
