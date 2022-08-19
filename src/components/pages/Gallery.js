@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Gallery.css";
 import { GalleryCard } from "../gallerycard.js";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 function Gallery() {
   const [artworks, setArtworks] = useState([]);
@@ -31,8 +31,13 @@ function Gallery() {
     console.log(artwork);
   };
 
+  const handleShuffle = useCallback(() => {
+    setArtworks((artworks) => [...artworks].sort(() => Math.random() - 0.5));
+  }, []);
+
   return (
     <>
+      <div className='bubble' onClick={handleShuffle}></div>
       <div className="gallery-container">
         {artworks.map((artwork) => (
           <GalleryCard
@@ -40,7 +45,7 @@ function Gallery() {
             imageUrl={artwork.imageUrl}
             date={artwork.date}
             medium={artwork.medium}
-            onClick={() => handleFocus(artwork)}
+            // onClick={() => handleFocus(artwork)}
           />
         ))}
       </div>

@@ -1,7 +1,34 @@
 import React from "react";
 import "../../Contact.css";
+import { useState, useEffect } from "react";
 
 export default function Contact() {
+  const [softwares, setSoftwares] = useState([]);
+
+  useEffect(() => {
+    let PROJECT_ID = "j1fgz8za";
+    let DATASET = "production";
+    let QUERY = encodeURIComponent('*[_type == "software"]');
+
+    let URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+    fetch(URL)
+      .then((res) => res.json())
+      .then(({ result }) => {
+        setSoftwares([])
+        if (result.length > 0) {
+          result.forEach((software) => {
+            setSoftwares((oldArray) => [...oldArray, software]);
+          });
+        }
+      })
+      .catch((err) => console.error(err));
+  }, []);
+
+  function getRandomInt(max) {
+    console.log(Math.floor(Math.random() * max) + 's');
+    return Math.floor(Math.random() * max) + 's';
+  }
+
   return (
     <>
       <div className="contact-container">
@@ -12,8 +39,8 @@ export default function Contact() {
 
         <div class="contact-description">
           If you would like your own website like this, you're interested in
-          collaborating, or you just want to chat about design and web development...
-          ☕<br></br> <br></br>
+          collaborating, or you just want to chat about design and web
+          development... ☕<br></br> <br></br>
           Email me at{" "}
           <a href="mailto: mckaylalankau@gmail.com">
             mckaylalankau@gmail.com
@@ -24,87 +51,9 @@ export default function Contact() {
         </div>
       </div>
       <div className="sticker-container">
-        <img
-          class="sticker delay0"
-          src="images/stickers/ai.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay1"
-          src="images/stickers/ps.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay2"
-          src="images/stickers/indesign.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay4"
-          src="images/stickers/figma.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay5"
-          src="images/stickers/github.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay4"
-          src="images/stickers/git.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay3"
-          src="images/stickers/js.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay1"
-          src="images/stickers/vscode.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay0"
-          src="images/stickers/ruby.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay1"
-          src="images/stickers/rails.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay2"
-          src="images/stickers/jquery.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay3"
-          src="images/stickers/react.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay4"
-          src="images/stickers/redux.png"
-          alt="sticker"
-        />
-
-        <img
-          class="sticker delay5"
-          src="images/stickers/html.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay4"
-          src="images/stickers/css.png"
-          alt="sticker"
-        />
-        <img
-          class="sticker delay3"
-          src="images/stickers/scss.png"
-          alt="sticker"
-        />
+        {softwares.map((software) => (
+          <img className="sticker" src={software.imageUrl} alt="sticker" style={{animationDelay: getRandomInt(-7)}}/>
+        ))}
       </div>
     </>
   );
