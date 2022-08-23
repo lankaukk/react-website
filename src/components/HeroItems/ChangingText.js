@@ -47,7 +47,7 @@ export var ChangingText2 = (props) => {
       id="adjectives2"
       style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
     >
-      hi {props.text2[0]}
+      {props.text2[0]}
     </div>
   );
 };
