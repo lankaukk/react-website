@@ -15,7 +15,7 @@ export var ChangingText = (props) => {
         counter = 0;
       }
     }
-  }, []);
+  });
 
   return (
     <div
@@ -40,7 +40,7 @@ export var ChangingText2 = (props) => {
         counter = 0;
       }
     }
-  }, []);
+  });
 
   return (
     <div
