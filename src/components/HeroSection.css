@@ -14,13 +14,17 @@
   width: 100%;
   font-family: "Staatliches";
   text-transform: uppercase;
-  font-size: 6vw;
+  font-size: 7vw;
+}
+
+.hero-text-container > div {
+  margin: -1vw 0;
 }
 
 .hero-image {
   position: absolute;
   opacity: 1;
-  width: 7vw;
+  width: 5vw;
 }
 
 .hero-image:hover {
@@ -29,6 +33,6 @@
 
 @media screen and (max-width: 960px) {
   .hero-image {
-    width: 12vw;
+    width: 10vw;
   }
 }

@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          MCKAYLA<span style={{ opacity: 0 }}>_</span>LANKAU
+          McKAYLA<span style={{ opacity: 0 }}>_</span>LANKAU
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />

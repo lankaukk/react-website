@@ -9,20 +9,20 @@ export var HeroSection = () => {
   return (
     <div className="hero-container">
       <div className="hero-text-container">
-        <div style={{ display: "flex", flexDirection: "row", gap: ".3em" }}>
+        <div style={{ display: "flex", flexDirection: "row", gap: ".3em", alignItems: 'baseline' }}>
           <ChangingText text={["Interactive", "Graphic"]} /> 
-          <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
+          <div style={{ fontFamily: 'Bodoni Moda', fontWeight: "light" }}>
             Web Design
           </div>
         </div>
-        <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
-          & Development
+        <div style={{ fontFamily: 'Bodoni Moda', fontWeight: "light" }}>
+          <span style={{fontFamily: "Sniglet", fontWeight: "600" }}>&</span> Development
         </div>
-        <div style={{ display: "flex", flexDirection: "row", gap: ".3em" }}>
-          <span style={{ fontFamily: "Sniglet", fontWeight: "bold" }}>FOR</span>
+        <div style={{ display: "flex", flexDirection: "row", gap: ".3em", alignItems: 'baseline' }}>
+          <span style={{ fontFamily: 'Bodoni Moda', fontWeight: "bold" }}>FOR</span>
           <ChangingText2 text2={["Creative", "Bold", "Artistic"]} />
         </div>
-        <div style={{ fontFamily: "Cormorant", fontWeight: "light" }}>
+        <div style={{ fontFamily: 'Bodoni Moda', fontWeight: "light" }}>
           Digital{"  "}
           <span style={{ fontFamily: "Sniglet", fontWeight: "bold" }}>
             Experiences

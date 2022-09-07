@@ -20,7 +20,7 @@ export var ChangingText = (props) => {
   return (
     <div
       id="adjectives"
-      style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
+      style={{ fontFamily: "Staatliches", fontSize: '7.6vw' }}
     >
       {props.text[0]}
     </div>
@@ -45,7 +45,7 @@ export var ChangingText2 = (props) => {
   return (
     <div
       id="adjectives2"
-      style={{ fontFamily: "Staatliches", textTransform: "uppercase" }}
+      style={{ fontFamily: "Staatliches", fontSize: '7.6vw' }}
     >
       {props.text2[0]}
     </div>
