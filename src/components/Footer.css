@@ -18,6 +18,14 @@
   
 }
 
+.social-icon-link {
+  color: #fff;
+}
+
+.social-icon-link:hover {
+  color: var(--sage);
+}
+
 .website-rights {
   color: #fff;
 }

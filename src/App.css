@@ -11,10 +11,14 @@ html {
   font-family: "DM Mono", monospace;
 }
 
+:root {
+  --sage: #79f7a3;
+  --sage-60: #79f7a360;
+}
+
 a {
   text-decoration: none;
-  color: rgb(255, 35, 255);
-  /* mix-blend-mode: difference; */
+  color: var(--sage);
 }
 
 body {
