@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import "./masonry.css";
 
 var GalleryCard = (props) => {
@@ -62,6 +62,4 @@ export default Gallery;
 //      setArtworks((artworks) => [...artworks].sort(() => Math.random() - 0.5));
 //    }, []);
 
-{
-  /* <div className='bubble' onClick={handleShuffle}></div> */
-}
+/* <div className='bubble' onClick={handleShuffle}></div> */
