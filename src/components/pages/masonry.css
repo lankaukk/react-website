@@ -1,0 +1,48 @@
+.gallery-container {
+  column-count: 4;
+  column-gap: 10px;
+  margin: 50px;
+}
+
+.card-holder {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.card-holder img {
+  max-width: 100%;
+  display: block;
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+.card-holder > div {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  color: black;
+  background: white;
+  font-size: 0.9em;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .gallery-container {
+    column-count: 2;
+    column-gap: 10px;
+    margin: 30px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gallery-container {
+    column-count: 1;
+    column-gap: 10px;
+    margin: 0px;
+  }
+}
