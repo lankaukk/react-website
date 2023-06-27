@@ -10,7 +10,7 @@
 }
  
 .card-holder {
-  width: 16vw;
+  width: 16vw; 
 }
 
 @media screen and (max-width: 960px) {
