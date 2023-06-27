@@ -1,6 +1,7 @@
 import React from "react";
 import "../../Gallery.css";
 import { useState, useEffect, useCallback } from "react";
+import styled from "styled-components";
 
 var GalleryCard = (props) => {
   const date = props.date;
