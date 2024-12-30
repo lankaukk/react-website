@@ -27,10 +27,6 @@
   width: 5vw;
 }
 
-.hero-image:hover {
-  opacity: 0.5;
-}
-
 @media screen and (max-width: 960px) {
   .hero-image {
     width: 10vw;

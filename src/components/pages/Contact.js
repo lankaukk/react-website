@@ -14,7 +14,7 @@ export default function Contact() {
     fetch(URL)
       .then((res) => res.json())
       .then(({ result }) => {
-        setSoftwares([])
+        setSoftwares([]);
         if (result.length > 0) {
           result.forEach((software) => {
             setSoftwares((oldArray) => [...oldArray, software]);
@@ -25,8 +25,8 @@ export default function Contact() {
   }, []);
 
   function getRandomInt(max) {
-    console.log(Math.floor(Math.random() * max) + 's');
-    return Math.floor(Math.random() * max) + 's';
+    // console.log(Math.floor(Math.random() * max) + 's');
+    return Math.floor(Math.random() * max) + "s";
   }
 
   return (
@@ -52,7 +52,12 @@ export default function Contact() {
       </div>
       <div className="sticker-container">
         {softwares.map((software) => (
-          <img className="sticker" src={software.imageUrl} alt="sticker" style={{animationDelay: getRandomInt(-7)}}/>
+          <img
+            className="sticker"
+            src={software.imageUrl}
+            alt="sticker"
+            style={{ animationDelay: getRandomInt(-7) }}
+          />
         ))}
       </div>
     </>
